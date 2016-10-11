@@ -5,7 +5,7 @@ font-family:Arial, Helvetica;
 
 h1{
   font-family:Helvetica;
-  color:#fff;
+  color:#000;
   padding-top: 2em;
   text-shadow: 5px 0px 5px rgba(0,0,0,0.5);
   padding-top: 400px;
@@ -38,18 +38,19 @@ p a{
 }
 
 a{
-  color: #222;
+  color: #000;
   font-size:0.75em;
   text-decoration: none;
 }
 
 nav a {
-  padding: .3em  1em
+  padding: .3em  1em;
+  color:#fff;
 }
 
 header{
   background-image: url("../images/banner.jpg");
-  background-color: #ffebcd;
+  background-color: #999;
   text-align:center;
   height:560px;
   background-repeat: no-repeat;
@@ -60,9 +61,10 @@ nav {
   line-height: 2em;
   text-align: center;
   font-size: 1.5em;
-  border-top: solid #333 .2em;
-  border-bottom: solid #333 .2em;
+  border-top: solid #fff .2em;
+  border-bottom: solid #fff .2em;
   text-decoration: none;
+  background-color:#000;
 }
 
 #body {
